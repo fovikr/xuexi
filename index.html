@@ -50,6 +50,13 @@
         <p>版权</p>
         <p>备案号</p>
     </dibulan>
+      <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
     
    
     
